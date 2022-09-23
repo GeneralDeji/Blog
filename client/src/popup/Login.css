@@ -1,0 +1,93 @@
+.login{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    background: rgba(240, 240, 240, 0.94);    
+    /* background-color: rgba(49, 49, 49, 0.8); */
+    
+}
+
+.loginModal{
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    max-width: 560px;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.closePopup{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.loginModal-container{
+   
+    height: 100%;
+    max-height: 300px;
+    margin-bottom: 150px;
+}
+
+.loginModal-container h1{
+    font-size: 35px;
+    margin-bottom: 32px;
+}
+
+
+.loginModal-container .already{
+    margin-top: 45px;
+    font-size: 22px;
+    color: #292929;
+}
+
+
+
+.inptt label{
+    font-size: 18px;
+}
+
+.inptt input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.inptt{
+    display: grid;
+    margin-bottom: 55px;
+}
+
+.btnn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btnn button{
+    background-color: #0086B0;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    height: 47px;
+}
+
+
+

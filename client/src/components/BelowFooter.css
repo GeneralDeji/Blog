@@ -1,0 +1,33 @@
+.below{
+    background-color: #292929;
+}
+
+.below .line-div{
+    height: 1px;
+    background-color: #FDFEFF;
+    margin: 0 15px;    
+}
+
+.btm{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    color: #FDFEFF;
+}
+
+.btm .icons{
+    margin-right: 8px;
+}
+
+@media (min-width: 500px){
+    .btm{
+        justify-content: right;
+        gap: 30px;
+        
+    }
+
+    .icn{
+        margin-top: 7px;
+    }
+}

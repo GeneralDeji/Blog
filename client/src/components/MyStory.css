@@ -1,0 +1,227 @@
+.myStory{
+    padding: 49px 99px;
+
+}
+
+.myStory .story-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myStory .story-heading h1{
+    font-size: 62.6721px;
+    line-height: 107px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+
+    color: #292929;
+}
+
+.myStory .story-heading button{
+    width: 197.42px;
+    height: 54.84px;
+    background: #292929;
+    border-radius: 7.83401px;
+    font-size: 27px;
+    line-height: 53px;
+    display: flex;
+    justify-content: center;
+    color: #F0F8FF;
+}
+
+.myStory .story-heading .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.myStory .all{
+    margin-top: 43px;
+    font-size: 37.6032px;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    color: #292929;
+
+}
+
+.myStory .storyContent h1{
+    width: 587.55px;
+    font-size: 38.2024px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #292929;
+}
+
+.myStory .storyContent p{
+    width: 616.3px;
+    font-size: 31.9352px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    color: #7B7B7B;
+}
+
+.storyy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+}
+
+
+
+.storyy .mystory-btn .edit-btn{
+    font-size: 28.2024px;
+    line-height: 48px;
+    color: #F0F8FF;
+    width: 164.51px;
+    height: 51.7px;
+    background: #0086B0;
+    border-radius: 7.83401px;
+    border: none;
+    margin-right: 20px;
+}
+
+
+.storyy .mystory-btn .delete-btn{
+    font-size: 28.2024px;
+    line-height: 48px;
+    background-color: #F0F8FF;
+    width: 164.51px;
+    height: 51.7px;
+    color: #0086B0;
+    border-radius: 7.83401px;
+    border: 1px solid #0086B0;
+}
+
+
+.storyy .preview-story{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.mystory-btn{
+    display: flex;
+}
+
+
+@media (max-width: 1000px){
+    .myStory .storyContent h1 {
+        width: 80%;
+        font-size: 35px;
+    }
+
+    .myStory .storyContent p{
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .storyy .mystory-btn .edit-btn{
+        font-size: 25px;
+        width: 130px;
+        height: 45px;
+    }
+    
+    
+    .storyy .mystory-btn .delete-btn{
+        font-size: 25px;
+        width: 130px;
+        height: 45px;
+    }
+
+
+    .myStory{
+        padding: 40px;
+    }
+}
+
+@media (max-width: 800px){
+    .myStory .storyContent h1 {
+        width: 90%;
+        font-size: 30px;
+    }
+
+    .myStory .story-heading h1{
+        font-size: 50px;
+    }
+    
+    .myStory .story-heading button{
+        width: 130px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+    .myStory .storyContent p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px){
+    .myStory {
+        padding: 20px;
+    }
+
+    .myStory .story-heading h1{
+        font-size: 30px;
+    }
+    
+    .myStory .story-heading button{
+        width: 100px;
+        height: 40px;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .myStory .all {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .storyy .mystory-btn .edit-btn{
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+        line-height: normal;
+    }
+    
+    
+    .storyy .mystory-btn .delete-btn{
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+        line-height: normal;
+    }
+
+    .myStory .storyContent p{
+        font-size: 20px;
+    }
+
+    .storyy {
+        margin-top: 40px;
+    }
+}
+
+
+@media (max-width: 600px){
+    .storyy{
+        display: grid;
+    }
+
+    .mystory-btn {
+        width: 70%;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .myStory .storyContent h1 {
+        width: 100%;
+    }
+
+    .myStory .storyContent p {
+        width: 100%;
+    }
+}

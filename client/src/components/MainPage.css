@@ -1,0 +1,93 @@
+.mainpage{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    /* background-color: green; */
+}
+
+.text{
+    width: 100%;
+    max-width: 558px;
+}
+
+.text h1{
+    /* text-align: center; */
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.text p{
+    /* font-family: Open Sans; */
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 42px;
+}
+
+.text button{
+    font-size: 30px;
+    width: 230px;
+    height: 52px;
+    
+}
+
+.text .story-btn{
+    background: #0086B0;
+    border-radius: 5px;
+    border: none;
+    color: #F5F6F8;
+}
+
+.text .feed-btn{
+    background: #F5F6F8;
+    border-radius: 5px;
+    color: #0086B0;
+    border: 1px solid #0086B0;
+}
+
+.text .btns {
+    display: flex;
+    gap: 20px;
+}
+
+.puzzle img{
+    width: 90%;
+}
+
+@media (max-width: 900px){
+    .text button{
+        font-size: 20px;
+        width: 130px;
+        height: 32px;
+        
+    }
+
+    .text h1{
+        font-size: 55px;
+    }
+    
+    .text p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 677px){
+    .text h1{
+        font-size: 45px;
+    }
+
+    .puzzle img{
+        width: 70%;
+    }
+
+    .mainpage{
+        display: grid;
+        text-align: center;
+
+    }
+
+    .text .btns {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,139 @@
+.stories{
+    display: flex;
+    background-color: #F5F6F8;;
+    justify-content: center;
+    padding: 79px 0 100px 0;
+    align-items: center;
+}
+
+.stories .textt {
+    width: 80%;
+    /* max-width: 538px; */
+}
+
+
+
+.stories .textt h1{
+    font-size: 75px;
+    line-height: 79px;
+    margin-bottom: 18px;
+}
+
+.stories .textt p{
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    /* width: 450px; */
+}
+
+.all-stories{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    flex-wrap: wrap; */
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+}
+
+
+
+.all-stories .story h1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.all-stories .story .readmore a{
+    color: #0086B0 !important;
+    font-size: 14px
+}
+
+.all-stories .story .readmore{
+    display: flex;
+    align-items: center;
+}
+
+.all-stories .story .preview-story{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.puzzlee img{
+    width: 80%;
+}
+
+
+@media (max-width: 1000px){
+    .all-stories{
+        padding: 20px;
+    }
+
+    .puzzlee img{
+        width: 90%;
+    }
+
+    .stories{
+        padding: 50px 30px;
+    }
+
+    .stories .textt h1{
+        font-size: 55px;
+        width: 80%;
+    }
+
+    .stories .textt p{
+        font-size: 25px;
+    }
+
+    .all-stories .story h1{
+        font-size: 28px;
+    }
+
+    .all-stories .story .tag{
+        font-size: 12px;
+    }
+
+    .all-stories .story .preview-story{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 800px){
+    .all-stories {
+        grid-template-columns: 40% 40%;
+    }
+}
+
+@media (max-width: 677px){
+    .stories{
+        display: grid;
+        text-align: center;
+    }
+
+    .stories .textt h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .puzzlee img {
+        width: 80%;
+    }
+
+    .stories .textt {
+        width: 100%;
+        /* max-width: 300px; */
+    }
+}
+
+@media (max-width: 500px){
+    .all-stories {
+        grid-template-columns: 90%;
+    }
+
+}

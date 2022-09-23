@@ -1,0 +1,92 @@
+.more{
+    padding: 43px 100px;
+    /* width: 80%;
+    margin: auto; */
+}
+
+.more .tag{
+    width: 90.48px;
+    background: #6397E6;
+    border-radius: 7.76662px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.more .tag p{
+    font-size: 17.0866px;
+    color: white;
+}
+
+.more h1{
+    width: 100%;
+    font-size: 62.133px;
+    line-height: 70px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #292929;
+}
+
+.more .story{
+    font-size: 37.9598px;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #7B7B7B;
+    margin-top: 55px
+}
+
+@media(max-width: 1000px) {
+    .more h1 {
+        font-size: 50px;
+    }
+
+    .more .story {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 900px) {
+    .more h1 {
+        font-size: 40px;
+    }
+
+    .more .story {
+        font-size: 27px;
+    }
+}
+
+@media(max-width: 600px) {
+    .more h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .more .story {
+        font-size: 20px;
+    }
+
+    .more .story {
+        margin-top: 20px;
+    }
+
+    .more .tag p {
+        font-size: 14px;
+    }
+
+    .more {
+        padding: 30px 50px;
+    }
+}
+
+
+@media(max-width: 375px) {
+    .more h1 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .more {
+        padding: 15px;
+    }
+}

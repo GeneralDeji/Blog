@@ -1,0 +1,80 @@
+.discover .DiscoverDesk{
+    width: 100%;
+    height: 200px;
+}
+
+.discover{
+    position: relative;
+    background-color: #292929;
+}
+
+.discover-container{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.discover-container .first-discover{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+
+.discover .second-discover p{
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.third-discover{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.third-discover input{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 29px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.third-discover button{
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    height: 39px;
+    width: 90px;
+    background-color: #0086B0;
+    color: #FFFBFB;
+}
+
+@media (min-width:500px){
+    .third-discover input{
+        width: 260px;
+        font-size: 18px;
+    }
+
+    .third-discover button{
+        font-size: 18px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1024px){
+    .discover{
+        width: 90%;
+        margin: 40px auto;
+        background-color: #FFFBFB;
+    }
+}
+

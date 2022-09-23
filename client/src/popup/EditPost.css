@@ -1,0 +1,115 @@
+.editpost .post{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.editpost h1{
+    font-size: 60px;
+}
+
+/* .createpost div{
+    margin-top: 41px;
+} */
+
+.editpost .inputt {
+    width: 100%;
+    max-width: 1239px;;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 42px;
+}
+
+.editpost .div2{
+    margin-top: 41px;
+}
+
+.editpost textarea{
+    resize: none;
+    width: 100%;
+    max-width: 1239px;;
+    height: 568px;
+    margin-top: 41px;
+    font-size: 24px;
+    border: 1px solid #DDDDDD;
+    padding: 20px 42px;
+
+}
+
+.editpost .botn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.editpost .botn button{
+    font-size: 30px;
+    width: 438.55px;
+    height: 67px;
+    background: #0086B0;
+    color: #F0F8FF;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 900px){
+    .editpost .post{
+        width: 75%;
+        text-align: center;
+    }
+
+    .editpost .inputt {
+        max-width: 600px;;
+        height: 50px;
+    }
+
+    .editpost textarea{
+        max-width: 600px;;
+        height: 500px;
+    }
+
+    .editpost .botn button{
+        font-size: 25px;
+        width: 300px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .editpost .inputt {
+        max-width: 400px;;
+        height: 40px;
+    }
+
+    .editpost textarea{
+        max-width: 400px;;
+        height: 400px;
+    }
+}
+
+@media (max-width: 580px){
+    .editpost .inputt {
+        width: 80%;
+        max-width: 300px;;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .editpost textarea{
+        width: 80%;
+        max-width: 300px;;
+        height: 400px;
+        font-size: 18px;
+
+    }
+
+    .editpost .botn button{
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+    }
+
+    .editpost h1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,127 @@
+/* .createpost{
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+} */
+
+.createpost .post{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.createpost h1{
+    font-size: 60px;
+}
+
+/* .createpost div{
+    margin-top: 41px;
+} */
+
+.createpost .inputt {
+    width: 100%;
+    max-width: 1239px;;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid #DDDDDD;
+    padding: 10px 42px;
+}
+
+.createpost .div2{
+    margin-top: 41px;
+}
+
+.createpost textarea{
+    resize: none;
+    width: 100%;
+    max-width: 1239px;;
+    height: 568px;
+    margin-top: 41px;
+    font-size: 24px;
+    border: 1px solid #DDDDDD;
+    padding: 20px 42px;
+
+}
+
+.createpost .botn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.createpost .botn button{
+    font-size: 30px;
+    width: 438.55px;
+    height: 67px;
+    background: #0086B0;
+    color: #F0F8FF;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 900px){
+    .createpost .post{
+        width: 75%;
+        text-align: center;
+    }
+
+    .createpost .inputt {
+        max-width: 600px;;
+        height: 50px;
+    }
+
+    .createpost textarea{
+        max-width: 600px;;
+        height: 500px;
+    }
+
+    .createpost .botn button{
+        font-size: 25px;
+        width: 300px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .createpost .inputt {
+        max-width: 400px;;
+        height: 40px;
+    }
+
+    .createpost textarea{
+        max-width: 400px;;
+        height: 400px;
+    }
+}
+
+@media (max-width: 580px){
+    .createpost .inputt {
+        width: 80%;
+        max-width: 300px;;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .createpost textarea{
+        width: 80%;
+        max-width: 300px;;
+        height: 400px;
+        font-size: 18px;
+
+    }
+
+    .createpost .botn button{
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+    }
+
+    .createpost h1{
+        font-size: 50px;
+    }
+}

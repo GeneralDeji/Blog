@@ -1,0 +1,133 @@
+/* .Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: FDFEFF;
+    padding: 24px 90px 20px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 24px;
+} */
+
+.Navbar{
+    position: relative;
+}
+
+.MobileNav{
+    display: none;
+}
+
+.Navbar img{
+    max-width: 25%;
+    
+}
+
+.Navlinks button{
+    background-color:#0086B0;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+@media (max-width: 990px){
+    .DesktopNav{
+        display: none;
+    }
+
+    
+
+    .MobileNav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #FDFEFF;
+        align-items: center;
+        padding: 20px 10px;
+
+    }
+
+    .MobileNav .Hamburger{
+        position: absolute;
+        right: 5%;
+    }
+
+    .MobileNav ul{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        
+        top: 60px;
+        right: 0;
+        width: 100%;
+        justify-content: center;
+        background-color: #FDFEFF;
+        color: #FDFEFF;
+        z-index: 1;
+        
+    }
+
+
+    .MobileNav li{
+        margin: 10px;
+        color: black;
+    }
+}
+
+@media (min-width: 500px){
+    .MobileNav{
+        padding: 20px 20px;
+    }
+}
+
+@media (min-width: 990px){
+    .DesktopNav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FDFEFF;
+        padding: 24px 35px 20px;
+    }
+
+    .DesktopNav li{
+        list-style: none;
+        display: inline;
+        margin-right: 30px;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .Navbar img{
+        max-width: 100%;
+    }
+
+    .Navlinks button{
+        background-color: #0086B0;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        height: 35px;
+        padding: 0 15px;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .DesktopNav{
+        padding: 24px 60px 20px;
+    }
+}
+
+
+
+li a{
+    color: black;
+}
